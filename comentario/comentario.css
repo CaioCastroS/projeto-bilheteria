@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "kdam thmor pro", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #dddcdc;
+    text-shadow: 4px 4px 8px rgba(255, 0, 0, 0.493);
+}
+
+body {
+    background-image: url("https://images4.alphacoders.com/103/thumb-1920-1033319.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 8px rgba(255, 0, 0, 0.493);
+    
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;
+    border: 1px #000;
+    
+}
+
+.prim {
+    display: flex;
+    column-gap: 70px;
+    margin-top: 60px;
+    width: 80vw;
+    margin-left: 32vw;
+    
+}
+
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px
+   
+}
+
+
+#rang {
+    margin-left: 35vw;
+    margin-top: 40px;
+    width: 30vw;
+    color: red;
+    
+}
+
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;
+   
+}
+
+.terc {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    column-gap: 70px;
+
+}
+
+h5 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px
+    
+}
+
+.quart {
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+}
+
+#caixa {
+    width: 40vw;
+    height: 20vh;
+    margin-bottom: 20vh;
+    border-radius: 10px;
+    text-align: center;
+    background: #a7a7a7;
+    color: #000;
+    text-shadow: none;
+}
+
+#caixa::placeholder {
+    color: #000;
+    text-shadow: none;
+}
+
+label {
+    font-size: 20px;
+}
+
+@media(max-width:1040px){
+
+    body {
+        height: 173vh;
+    }
+
+    .prim {
+        display: block;
+        margin-left: 50px;
+    }
+
+   #rang {
+    width: 60vw;
+    margin-left: 90px;
+   }
+
+   .terc {
+        display: block;
+        margin-left: 50px;
+
+   }
+
+   #caixa {
+    width: 70vw;
+   }
+
+}

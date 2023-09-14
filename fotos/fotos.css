@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "kdam thmor pro", sans-serif;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/background/20230526/original/pngtree-black-bats-flying-in-the-dark-picture-image_2743428.jpg");
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 4px 4px 8px rgba(255, 0, 0, 0.493);
+    color: #fcfcfc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+.cards {
+    width: 90vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.card {
+    width: 28vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: 55% 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 0 20px 20px;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 5px 5px px rgba(255, 0, 0, 0.493);
+    
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+
+.b-1 {
+    background-image: url("https://www.magazinespain.com/wp-content/uploads/2020/08/robert-pattinson-the-batman-1.jpg");
+}
+
+.b-2 {
+    background-image: url("https://nosomosnonos.com/wp-content/uploads/2022/05/zoe-kravitz-the-batman-1-e1646687004880.jpg");
+}
+
+.b-3 {
+    background-image: url("https://www.cinemascomics.com/wp-content/uploads/2020/08/the-batman-jeffrey-wright-960x720.jpg");
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    margin-top: 30vh;
+    margin-bottom: 40vh;
+}
+
+.c-4 {
+    background-image: url("https://411mania.com/wp-content/uploads/2022/03/John-Turturro-The-Batman-645x370.jpeg");
+}
+
+.c-5 {
+    background-image: url("https://epipoca.com.br/wp-content/uploads/2021/05/E1wotOoWQAEWGRN.jpg");
+
+}
+
+.c-6 {
+    background-image: url("https://getyourcomicon.co.uk/wp-content/uploads/2022/02/TheBatman-Alfred-Header.jpg");
+
+}
+
+@media(max-width:1040px){
+
+    body {
+        height: 530vh;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        margin-top: 90px;
+    }
+
+    .card {
+        width: 90vw;
+        margin-left: 22px;
+    }
+
+    .container-2 {
+        position: absolute;
+        margin-top: 188vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
